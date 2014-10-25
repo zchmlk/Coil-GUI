@@ -278,6 +278,16 @@ n_z_filaments.pack()
 
 master.protocol("WM_DELETE_WINDOW", on_quit_parameters)
 
+r_range.set(4.0)
+z_range.set(1.5)
+r_dims.set(100)
+z_dims.set(100)
+i_coil.set(1.0)
+r_width.set(0.1)
+z_width.set(0.1)
+n_r_filaments.set(10)
+n_z_filaments.set(10)
+
 Tk.mainloop()
 
 
