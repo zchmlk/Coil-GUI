@@ -286,7 +286,7 @@ i_coil.set(1.0)
 r_width.set(0.1)
 z_width.set(0.1)
 n_r_filaments.set(10)
-n_z_filaments.set(10)
+n_z_filaments.set(10)  
 
 Tk.mainloop()
 
