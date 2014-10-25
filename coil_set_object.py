@@ -6,7 +6,7 @@ Created on Thu Mar 27 14:24:19 2014
 """
 
 from coil_object import Coil
-#import gspread
+import gspread
 import pylab as P
 
 fdtype = P.float64
