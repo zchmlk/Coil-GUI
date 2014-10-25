@@ -2,7 +2,7 @@
 """
 Created on Thu Mar 27 14:24:19 2014
 
-@author: nan
+@author: zchmlk
 """
 
 from coil_object import Coil
