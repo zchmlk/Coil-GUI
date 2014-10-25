@@ -7,10 +7,6 @@ Created on Sat Oct 04 14:05:40 2014
 from coil_object import Coil
 from coil_set_object import CoilSet
 
-import matplotlib
-matplotlib.use('module://mplh5canvas.backend_h5canvas')
-
-
 from Tkinter import *
 import pylab as P
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
