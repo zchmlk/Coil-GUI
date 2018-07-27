@@ -56,7 +56,7 @@ def makeCanvas():
     
     global canvas
     canvas = FigureCanvasTkAgg(window, master=root)
-    window.canvas.get_tk_widget().bind("<Button-3>", addCoilEvent)
+    window.canvas.get_tk_widget().bind("<Button-2>", addCoilEvent)
     window.canvas.get_tk_widget().bind("<Button-1>", removeCoilEvent)   
     
     makeSubPlot()
